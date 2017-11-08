@@ -12,45 +12,20 @@ On the folder rokk3rlabs run the gulp command
 `$ gulp`
 
 ## Production Files
-- Open the folder rokk3rlabs/public. NOTE this files should run on a server enviroment, In this case I used MAMP.
-- news.html
-- dashboard.html 
+- All the production files are in the folder rokk3rlabs/public. `NOTE` those files should be run on a server environment, In this case I used MAMP.
+- `open news.html`
+- `open dashboard.html`
 
 ## Deadline
 
-The estimated time for this test is four (4) hours
+The estimated time for this test is four (4) hours, but I spent about 6 hours.
 
-## Requirements
+## Progress
+- I created the setup for development, Gulp, Sass and Javascript
+- Implement only one chat, `the doughnut chart` with static data from the json `activity-data.json`. In this case implement `chartjs`
+- Markup HTML and CSS of the two sections `news.html` and `dashboard.html`
+- I couldn't complete the other charts and the main task `update the charts each minute`
 
-You must create a single page application that displays charts to simulate an activity in real-time using the activity-data.json file.
-
-
-## Dependencies
-
-* [reactjs]/[angularjs]
-* [highcharts]/[chartjs]/[d3]
-
-## TODOs (required)
-
-1. Build the markup in HTML and CSS, it consists of 2 sections (see zeplin design).
-2. Setup the project structure and integrate any modules required.
-3. Iterate the activity-data.json to simulate the activity-data in real time, these charts should be updated with activity every minute (you should make an interval every minute to show new data). Make sure to write the code needed to randomly update the original json.
-
-
-## Desirable (plus)
-
-* Responsive design
-* Managers, modules and dependencies
-* CSS pre-processors
-* Software development patterns
-* Javascript task runners ([gulpjs], [gruntjs], [brunch] ...)
-* Demo Ready
-
-
-## Important
-
-1. You must create a github repository for this test and send an email to camila@rokk3rlabs.com with repository URL and the README.md setup.
-2. Do not use any sort of frontend frameworks for the markup (such as twitter's bootstrap, foundation or similar).
 
 
 > Good luck and enjoy!
