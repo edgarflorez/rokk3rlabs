@@ -11,6 +11,11 @@ This is the official Rokk3rlabs frontend test.
 On the folder rokk3rlabs run the gulp command
 `$ gulp`
 
+## Production Files
+- Open the folder rokk3rlabs/public. NOTE this files should run on a server enviroment, In this case I used MAMP.
+- news.html
+- dashboard.html 
+
 ## Deadline
 
 The estimated time for this test is four (4) hours

@@ -5,14 +5,18 @@
     justify-content: space-between;
     padding: 50px 40px;
   }
-  &-news {
-    //width: 30%;
-    vertical-align: top;
+
+  &-base {
     background: $white;
     @include rounded-corners(6px);
     border: 1px solid $grid-news-grey-light;
     color: $grid-news-grey;
     margin-bottom: 20px;
+  }
+  // News
+  &-news {
+    //width: 30%;
+    vertical-align: top;
     @include breakpoint(xs) {
       width: 100%;
     }
@@ -70,6 +74,21 @@
 
     }
 
+  }
+
+  //Dashboard
+  &-statistic {
+    overflow: hidden;
+  }
+
+  &-width-3 {
+    width: 100%;
+  }
+  &-width-2 {
+    width: 60%;
+  }
+  &-width-1 {
+    width: 30%;
   }
 }
 

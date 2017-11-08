@@ -4,42 +4,49 @@
   <title>Rokk3rLab Code Excercise</title>
   <link rel="stylesheet" href="styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
 </head>
 <body>
-  <nav>
-    <div class="menu">
-      <h1>
-        <a href="#">rokk3rlabs</a>
-      </h1>
-      <div class="menu-header">
-        NAVIGATE
-      </div>
-      <ul>
-        <li><a href="#analytics" class="active">Analytics</a></li>
-        <li><a href="#News">News</a></li>
-        <li><a href="#Board-Brief">Board Brief</a></li>
-        <li><a href="#Briefcase">Briefcase</a></li>
-      </ul>
-      <button>Close menu</button>
-    </div>
-  </nav>
-  <main>
-    <section class="user-status">
-      <p>Admin Name</p>
-    </section>
-    <section class="grid-container">
-      <div class="grid-statistic grid-width-3">
-        component A
-      </div>
-      <div class="grid-statistic grid-width-2">
-        component B
-      </div>
-      <div class="grid-statistic grid-width-1">
-        Component C
-      </div>
-    </section>
+  <div class="main-wrapper">
 
-  </main>
+    <nav class="main-nav">
+      <div class="menu">
+        <h1>
+          <a href="#" class="menu-logo">rokk3rlabs</a>
+        </h1>
+        <div class="menu-header">
+          NAVIGATE
+        </div>
+        <ul>
+          <li><a class="menu-btn" href="#analytics"><span class="icon-left icon-analytics"></span>Analytics</a></li>
+          <li><a class="menu-btn active" href="#News"><span class="icon-left icon-news"></span>News</a></li>
+          <li><a class="menu-btn" href="#Board-Brief"><span class="icon-left icon-board"></span>Board Brief</a></li>
+          <li><a class="menu-btn" href="#Briefcase"><span class="icon-left icon-briefcase"></span>Briefcase</a></li>
+        </ul>
+        <button class="menu-btn menu-close"><span class="icon-left icon-arrow-left"></span>Close menu</button>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section class="user-status">
+        <a href="#" role="button" class="user-status--settings">Admin Name <span class="icon-inline icon-settings"></span></a>
+      </section>
+      <section class="grid-container">
+
+          <div class="grid-base grid-statistic grid-width-3">
+            CHART A
+          </div>
+          <div class="grid-base grid-statistic grid-width-2">
+            CHART B
+          </div>
+          <div class="grid-base grid-statistic grid-width-1">
+              <canvas id="myChart" width="230" height="290"></canvas>
+          </div>
+
+      </section>
+    </main>
+
+  </div>
 
   <script src="js/scripts.js"></script>
 </body>
