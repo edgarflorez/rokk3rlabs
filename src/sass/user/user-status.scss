@@ -1,0 +1,15 @@
+.user {
+  &-status {
+    background: $grey-base;
+    height: 60px;
+    padding: 0 40px;
+    text-align: right;
+    line-height: 60px;
+    color: $white;
+
+    &--settings {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

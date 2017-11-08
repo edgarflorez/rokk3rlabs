@@ -1,18 +1,35 @@
+html, body {
+  height: 100%;
+}
+
 body {
-  
+  font-family: ProximaNova;
 }
 
 p {
-  
+
   @include breakpoint(sm) {
-  
+
   }
 }
 
 a {
-  
+
 }
 
 h1 {
-  
+
+}
+
+//General layout
+.main-wrapper {
+  display: flex;
+  height: 100%;
+}
+.main-nav {
+  flex-grow: 1;
+}
+.main-content{
+  flex-grow: 2;
+  background: $grey-light;
 }

@@ -1,3 +1,69 @@
 .icon {
-  
+
+  &-left {
+    position: absolute;
+    margin-left: -30px;
+  }
+
+  &-inline {
+    display: inline-block;
+  }
+
+  &-analytics {
+    width: 18px;
+    height: 11px;
+    background: url('../images/analitycs.png');
+  }
+  &-news {
+    width: 16px;
+    height: 11px;
+    background: url('../images/newspaper-o.png');
+  }
+  &-board {
+    width: 12px;
+    height: 15px;
+    background: url('../images/board-brief.png');
+  }
+  &-briefcase {
+    width: 18px;
+    height: 14px;
+    background: url('../images/briefcase.png');
+  }
+  &-arrow-left {
+    width: 9px;
+    height: 9px;
+    background: url('../images/angle-double-left.png');
+    margin-top: 5px;
+  }
+  &-settings {
+    width: 16px;
+    height: 16px;
+    background: url('../images/settings.png');
+    margin: 0 5px;
+  }
+  &-watched {
+    width: 16px;
+    height: 11px;
+    background: url('../images/grid-watched.png');
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+
+  &-share {
+    &-favorite {
+      width: 22px;
+      height: 22px;
+      background: url('../images/share-favorites.png');
+    }
+    &-like {
+      width: 22px;
+      height: 22px;
+      background: url('../images/share-like.png');
+    }
+    &-more {
+      width: 22px;
+      height: 22px;
+      background: url('../images/share-more.png');
+    }
+  }
 }

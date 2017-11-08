@@ -7,6 +7,9 @@ This is the official Rokk3rlabs frontend test.
 ## Getting Started
 `git clone https://github.com/edgarflorez/rokk3rlabs && cd rokk3rlabs && npm install`
 
+## Development 
+On the folder rokk3rlabs run the gulp command
+`$ gulp`
 
 ## Deadline
 
