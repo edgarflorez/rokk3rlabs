@@ -4,6 +4,10 @@
 
 This is the official Rokk3rlabs frontend test.
 
+## Getting Started
+`git clone https://github.com/edgarflorez/rokk3rlabs && cd rokk3rlabs && npm install`
+
+
 ## Deadline
 
 The estimated time for this test is four (4) hours
